@@ -6,6 +6,12 @@ import Icon from 'react-native-vector-icons/Ionicons';
 const profileImage = require('./assets/images/profileImage.png');
 const category1 = require('./assets/images/category1.png');
 const category2 = require('./assets/images/category2.png');
+const category3 = require('./assets/images/category3.png');
+const category4 = require('./assets/images/category4.png');
+const category5 = require('./assets/images/category5.png');
+const category6 = require('./assets/images/category6.png');
+const category7 = require('./assets/images/category7.png');
+const category8 = require('./assets/images/category8.png');
 
 
 export default function App() {
@@ -34,7 +40,7 @@ export default function App() {
         <View style={styles.header}>
           <View>
             <Text style={{fontFamily: 'Lato', fontSize: 30, fontWeight: 'bold'}}>Hello, Devs</Text>
-            <Text>14 Tasks today</Text>
+            <Text>15 Tasks today</Text>
           </View>
             <Image source={profileImage}/>
         </View>
@@ -46,7 +52,7 @@ export default function App() {
           </View>
           
           <View>
-          <TextInput style={styles.filter}><Icon name='options-sharp' color='white' size={34}/></TextInput>
+          <TextInput editable={false} selectTextOnFocus={false} style={styles.filter}><Icon name='options-sharp' color='white' size={34}/></TextInput>
           </View>
         </View>
 
@@ -58,14 +64,14 @@ export default function App() {
             <View>
               <TextInput editable={false} selectTextOnFocus={false} style={styles.categoryBox}/>
               <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Excercise</Text>
-              <Text style={{marginLeft: 12}}>12 Tasks</Text>
+              <Text style={{marginLeft: 12}}>2 Tasks</Text>
               <Image style={{ marginLeft: 25}} source={category1}/>
             </View>
 
             <View style={{marginLeft: 10}}>
               <TextInput editable={false} selectTextOnFocus={false} style={styles.categoryBox}/>
               <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Study</Text>
-              <Text style={{marginLeft: 12}}>12 Tasks</Text>
+              <Text style={{marginLeft: 12}}>4 Tasks</Text>
               <Image style={{ marginLeft: 25}} source={category2}/>
             </View>
           </View>
@@ -74,15 +80,15 @@ export default function App() {
             <View>
               <TextInput editable={false} selectTextOnFocus={false} style={styles.categoryBox}/>
               <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Code</Text>
-              <Text style={{marginLeft: 12}}>12 Tasks</Text>
-              <Image style={{ marginLeft: 25}} source={category1}/>
+              <Text style={{marginLeft: 12}}>3 Tasks</Text>
+              <Image style={{ marginLeft: 25}} source={category3}/>
             </View>
 
             <View style={{marginLeft: 10}}>
               <TextInput editable={false} selectTextOnFocus={false} style={styles.categoryBox}/>
               <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Cook</Text>
-              <Text style={{marginLeft: 12}}>12 Tasks</Text>
-              <Image style={{ marginLeft: 25}} source={category2}/>
+              <Text style={{marginLeft: 12}}>1 Task</Text>
+              <Image style={{ marginLeft: 25}} source={category4}/>
             </View>
           </View>
 
@@ -90,15 +96,15 @@ export default function App() {
             <View>
               <TextInput editable={false} selectTextOnFocus={false} style={styles.categoryBox}/>
               <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Research</Text>
-              <Text style={{marginLeft: 12}}>12 Tasks</Text>
-              <Image style={{ marginLeft: 25}} source={category1}/>
+              <Text style={{marginLeft: 12}}>1 Task</Text>
+              <Image style={{ marginLeft: 25}} source={category5}/>
             </View>
 
             <View style={{marginLeft: 10}}>
               <TextInput editable={false} selectTextOnFocus={false} style={styles.categoryBox}/>
               <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Chores</Text>
-              <Text style={{marginLeft: 12}}>12 Tasks</Text>
-              <Image style={{ marginLeft: 25}} source={category2}/>
+              <Text style={{marginLeft: 12}}>2 Tasks</Text>
+              <Image style={{ marginLeft: 25}} source={category6}/>
             </View>
           </View>
 
@@ -106,15 +112,15 @@ export default function App() {
             <View>
               <TextInput editable={false} selectTextOnFocus={false} style={styles.categoryBox}/>
               <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Hobby</Text>
-              <Text style={{marginLeft: 12}}>12 Tasks</Text>
-              <Image style={{ marginLeft: 25}} source={category1}/>
+              <Text style={{marginLeft: 12}}>1 Task</Text>
+              <Image style={{ marginLeft: 25}} source={category7}/>
             </View>
 
             <View style={{marginLeft: 10}}>
               <TextInput editable={false} selectTextOnFocus={false} style={styles.categoryBox}/>
               <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Entertainment</Text>
-              <Text style={{marginLeft: 12}}>12 Tasks</Text>
-              <Image style={{ marginLeft: 25}} source={category2}/>
+              <Text style={{marginLeft: 12}}>1 Task</Text>
+              <Image style={{ marginLeft: 25}} source={category8}/>
             </View>
           </View>
         
