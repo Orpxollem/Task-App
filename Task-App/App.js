@@ -14,6 +14,18 @@ export default function App() {
     {name: 'Mobile Application Development', key:'1'},
     {name: 'Web Development', key:'2'},
     {name: 'Push Ups', key:'3'},
+    {name: 'Squats', key:'4'},
+    {name: 'Complete Assignment', key:'5'},
+    {name: 'Play a Game', key:'6'},
+    {name: 'Watch a movie', key:'7'},
+    {name: 'Prepare for project presentation', key:'8'},
+    {name: 'Organize closet', key:'9'},
+    {name: 'Cook a meal', key:'10'},
+    {name: 'Prepare for Computational Methods Slides', key:'11'},
+    {name: 'Prepare for Data Structures IA', key:'12'},
+    {name: 'Finish up on Expo project', key:'13'},
+    {name: 'Read on the change and demands concerning programming languages', key:'14'},
+    {name: 'Prepare clothes and study material for class', key:'15'},
   ]);
 
   return (
@@ -57,18 +69,18 @@ export default function App() {
               <Image style={{ marginLeft: 25}} source={category2}/>
             </View>
           </View>
-{/* 
+
           <View style={styles.Box}>  
             <View>
               <TextInput editable={false} selectTextOnFocus={false} style={styles.categoryBox}/>
-              <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Protoype1</Text>
+              <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Code</Text>
               <Text style={{marginLeft: 12}}>12 Tasks</Text>
               <Image style={{ marginLeft: 25}} source={category1}/>
             </View>
 
             <View style={{marginLeft: 10}}>
               <TextInput editable={false} selectTextOnFocus={false} style={styles.categoryBox}/>
-              <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Protoype2</Text>
+              <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Cook</Text>
               <Text style={{marginLeft: 12}}>12 Tasks</Text>
               <Image style={{ marginLeft: 25}} source={category2}/>
             </View>
@@ -77,14 +89,14 @@ export default function App() {
           <View style={styles.Box}>  
             <View>
               <TextInput editable={false} selectTextOnFocus={false} style={styles.categoryBox}/>
-              <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Protoype3</Text>
+              <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Research</Text>
               <Text style={{marginLeft: 12}}>12 Tasks</Text>
               <Image style={{ marginLeft: 25}} source={category1}/>
             </View>
 
             <View style={{marginLeft: 10}}>
               <TextInput editable={false} selectTextOnFocus={false} style={styles.categoryBox}/>
-              <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Protoype4</Text>
+              <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Chores</Text>
               <Text style={{marginLeft: 12}}>12 Tasks</Text>
               <Image style={{ marginLeft: 25}} source={category2}/>
             </View>
@@ -93,18 +105,18 @@ export default function App() {
           <View style={styles.Box}>  
             <View>
               <TextInput editable={false} selectTextOnFocus={false} style={styles.categoryBox}/>
-              <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Protoype5</Text>
+              <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Hobby</Text>
               <Text style={{marginLeft: 12}}>12 Tasks</Text>
               <Image style={{ marginLeft: 25}} source={category1}/>
             </View>
 
             <View style={{marginLeft: 10}}>
               <TextInput editable={false} selectTextOnFocus={false} style={styles.categoryBox}/>
-              <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Protoype6</Text>
+              <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Entertainment</Text>
               <Text style={{marginLeft: 12}}>12 Tasks</Text>
               <Image style={{ marginLeft: 25}} source={category2}/>
             </View>
-          </View> */}
+          </View>
         
           <Text style={styles.Header2}>Ongoing Task</Text>
 
@@ -190,5 +202,6 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     width: 350,
     height: 110,
+    wrapText: true,
   },
 });
